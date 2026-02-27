@@ -1,0 +1,23 @@
+To deploy your SPY 0DTE Dashboard to GitHub Pages:
+
+1. Create the repo on GitHub:
+   https://github.com/new
+   - Name: spy-0dte-dashboard
+   - Public
+   - Don't initialize with README
+   - Click "Create repository"
+
+2. Push the code (run in Terminal):
+   cd /Users/Saqib/.easyclaw/data/config/workspace
+   git push -u origin main
+
+3. Enable GitHub Pages:
+   https://github.com/smalik24/spy-0dte-dashboard/settings/pages
+   - Source: Deploy from a branch
+   - Branch: main / root
+   - Save
+
+Your dashboard will be live at:
+https://smalik24.github.io/spy-0dte-dashboard/
+
+The dashboard is already built and committed to git, just needs to be pushed!
